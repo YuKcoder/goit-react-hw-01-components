@@ -1,8 +1,10 @@
 import React from 'react';
 import Profile from './Profile/Profile';
 import Statistics from './Statistics/Statistics';
+import FriendList from './FriendList/FriendList';
 import userData from '../data/user.json';
 import statisticsData from '../data/statistics.json';
+import friendData from '../data/friends.json';
 
 export default function App() {
   return (
@@ -17,6 +19,7 @@ export default function App() {
         />
         <Statistics title="Upload stats" stats={statisticsData} />
         <Statistics stats={statisticsData} />
+        <FriendList friends={friendData} />
       </div>
     </React.StrictMode>
   );
