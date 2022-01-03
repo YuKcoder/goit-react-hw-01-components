@@ -37,7 +37,7 @@ export const Location = styled(Tag)``;
 
 export const Stats = styled.ul`
   display: flex;
-  border-top: 1px solid #a8c5e0;
+  border-top: 1px solid #757f9a;
   background-color: #d7dde8;
 `;
 
@@ -47,7 +47,7 @@ export const Insight = styled.li`
   justify-content: center;
   flex-basis: calc(100% / 3);
   height: 5rem;
-  border-right: 1px solid #a8c5e0;
+  border-right: 1px solid #757f9a;
 
   :last-child {
     border: none;
